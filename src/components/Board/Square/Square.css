@@ -1,0 +1,24 @@
+.Square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  color: white;
+  font-size: 70px;
+  border-radius: 10%;
+  background-color: #69D2E7;
+  box-shadow: 0 .03em .08em rgba(0,0,0, 0.5);
+  box-sizing: border-box;
+  transition: background-color 0.2s ease;
+}
+
+.Square:hover {
+	cursor: pointer;
+	background-color: #FA6900;
+}
+
+.Square.selected {
+  background-color: #FA6900;
+}
